@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(lightblue, #ebb5bf);
+	background-attachment: fixed;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.bg-body-tertiary {
+    background-color: unset !important;
+}
+
+.navbar-brand {
+    font-variant: small-caps;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-item {
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+}

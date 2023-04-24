@@ -31,3 +31,20 @@ footer {
 .navbar-nav li a {
     color: #ffffff;
 }
+
+.container-box {
+	width: 90%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.text-card {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 30px auto;
+    background-color: #42424266;
+}

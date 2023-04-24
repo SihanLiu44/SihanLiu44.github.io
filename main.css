@@ -10,6 +10,7 @@ footer {
     text-align: center;
     width: 100%;
     color: #ffffff;
+    background-color: #e7b7c2;
 }
 
 .bg-body-tertiary {
@@ -38,6 +39,14 @@ footer {
     margin: auto;
 }
 
+.container-box h1 {
+    margin: 30px;
+}
+
+.container-box img {
+    margin: 10px;
+}
+
 .text-card {
     text-align: center;
     color: white;
@@ -47,4 +56,58 @@ footer {
     padding: 25px;
     margin: 30px auto;
     background-color: #42424266;
+}
+
+.form-card {
+	border-radius: 10px;
+    margin: 20px auto;
+    width: 50%;
+    max-width: 540px;
+    padding: 5px 20px;
+    word-wrap: break-word;
+}
+
+.contact-form {
+    margin: 50px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 550px;
+    padding: 20px;
+    background: url("images/me.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.form-item {
+    display: flex;
+    margin: 20px 0;
+}
+
+.form-item-label {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.form-item-input {
+    flex: 1 1 auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    color: #000000;
+    margin: 0 5px;
+}
+
+.form-item-btn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 350px;
+    color: #ffffff;
+    background: #61d641;
+    border: 1px solid #2cb423;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
 }
